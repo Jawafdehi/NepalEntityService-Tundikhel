@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { HashRouter as Router, Routes, Route, Link } from 'react-router-dom'
+import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom'
 import Home from './pages/Home'
 import Entity from './pages/Entity'
 import EnvironmentSwitcher from './components/EnvironmentSwitcher'
