@@ -17,3 +17,4 @@ export { default as EntityLink } from './EntityLink';
 export { default as AttributesDisplay } from './AttributesDisplay';
 export { default as TagsDisplay } from './TagsDisplay';
 export { default as CollapsibleSection } from './CollapsibleSection';
+export { default as GitHubSourceLink } from './GitHubSourceLink';
