@@ -9,6 +9,7 @@ import SectionHeader from './SectionHeader';
 import AttributesDisplay from './AttributesDisplay';
 import TagsDisplay from './TagsDisplay';
 import CollapsibleSection from './CollapsibleSection';
+import GitHubSourceLink from './GitHubSourceLink';
 import { formattedDate } from '../../utils/date';
 
 interface InternationalOrgDetailsProps {
@@ -128,6 +129,9 @@ const InternationalOrgDetails: React.FC<InternationalOrgDetailsProps> = ({ entit
             <DetailField label="Change Description" labelNe="परिवर्तन विवरण">{entity.version_summary.change_description}</DetailField>
             <DetailField label="Last Modified" labelNe="अन्तिम परिमार्जन">{formattedDate(new Date(entity.version_summary.created_at))}</DetailField>
             <DetailField label="Created At" labelNe="सिर्जना मिति">{formattedDate(new Date(entity.created_at))}</DetailField>
+            <DetailField label="Source Data" labelNe="स्रोत डाटा">
+              <GitHubSourceLink entityId={entity.id} />
+            </DetailField>
           </CollapsibleSection>
         </tbody>
       </table>
