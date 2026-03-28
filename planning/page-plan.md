@@ -7,7 +7,7 @@ Tundikhel is a **playground frontend application** designed to test and demonstr
 **Purpose**: Testing ground for Nepal Entity Service functionality and API integration patterns.
 
 **Configurable API Endpoints**:
-- Production: `https://nes.newnepal.org`
+- Production: `https://nes.jawafdehi.org`
 - Local Development: `http://localhost:5173`
 - API path is always appended as `/api`
 
@@ -73,7 +73,7 @@ Tundikhel is a **playground frontend application** designed to test and demonstr
 **Implementation**:
 - Environment toggle in UI (Production/Local)
 - Base URLs:
-  - Production: `https://nes.newnepal.org`
+  - Production: `https://nes.jawafdehi.org`
   - Local: `http://localhost:5173`
 - API path automatically appended: `/api`
 - Settings persisted in localStorage

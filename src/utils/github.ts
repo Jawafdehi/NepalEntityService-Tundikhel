@@ -7,5 +7,5 @@ export function getEntityGitHubUrl(entityId: string): string {
   // Remove "entity:" prefix if present
   const path = entityId.replace(/^entity:/, '');
   
-  return `https://github.com/NewNepal-org/NepalEntityService-database/blob/main/v2/entity/${path}.json`;
+  return `https://github.com/Jawafdehi/NepalEntityService-database/blob/main/v2/entity/${path}.json`;
 }

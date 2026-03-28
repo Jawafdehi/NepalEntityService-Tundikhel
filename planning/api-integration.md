@@ -8,7 +8,7 @@
 
 ```javascript
 const ENVIRONMENTS = {
-  PRODUCTION: 'https://nes.newnepal.org',
+  PRODUCTION: 'https://nes.jawafdehi.org',
   LOCAL: 'http://localhost:5173'
 };
 

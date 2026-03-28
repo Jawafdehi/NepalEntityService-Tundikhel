@@ -115,7 +115,7 @@ function App() {
 							</Link>
 
 							<a
-								href="https://nes.newnepal.org"
+								href="https://nes.jawafdehi.org"
 								target="_blank"
 								rel="noopener noreferrer"
 								style={{ textDecoration: 'none' }}
@@ -135,7 +135,7 @@ function App() {
 							<ThemeToggle />
 
 							<a
-								href="https://github.com/NewNepal-org/NepalEntityService-Tundikhel"
+								href="https://github.com/Jawafdehi/NepalEntityService-Tundikhel"
 								target="_blank"
 								rel="noopener noreferrer"
 								style={{ color: 'white', textDecoration: 'none' }}
@@ -182,7 +182,7 @@ function App() {
 							</Link>
 
 							<a
-								href="https://nes.newnepal.org"
+								href="https://nes.jawafdehi.org"
 								target="_blank"
 								rel="noopener noreferrer"
 								style={{ textDecoration: 'none' }}
@@ -204,7 +204,7 @@ function App() {
 							<EnvironmentSwitcher />
 
 							<a
-								href="https://github.com/NewNepal-org/NepalEntityService-Tundikhel"
+								href="https://github.com/Jawafdehi/NepalEntityService-Tundikhel"
 								target="_blank"
 								rel="noopener noreferrer"
 								style={{ color: 'white', textDecoration: 'none' }}

@@ -7,7 +7,7 @@ interface Environment {
 export const ENVIRONMENTS: Record<string, Environment> = {
   PRODUCTION: {
     name: 'Production',
-    baseUrl: 'https://nes.newnepal.org',
+    baseUrl: 'https://nes.jawafdehi.org',
     color: '#2563eb'
   },
   LOCAL: {

@@ -14,8 +14,8 @@ Tundikhel serves as a **testing playground** for the Nepal Entity Service (NES),
 ### Supported Environments
 
 1. **Production Environment**
-   - Base URL: `https://nes.newnepal.org`
-   - Full API URL: `https://nes.newnepal.org/api`
+   - Base URL: `https://nes.jawafdehi.org`
+   - Full API URL: `https://nes.jawafdehi.org/api`
    - Live, stable data
    - Rate limiting enforced
 
@@ -34,7 +34,7 @@ Tundikhel serves as a **testing playground** for the Nepal Entity Service (NES),
 export const ENVIRONMENTS = {
   PRODUCTION: {
     name: 'Production',
-    baseUrl: 'https://nes.newnepal.org',
+    baseUrl: 'https://nes.jawafdehi.org',
     color: '#2563eb', // Blue
     description: 'Live NES instance with stable data'
   },

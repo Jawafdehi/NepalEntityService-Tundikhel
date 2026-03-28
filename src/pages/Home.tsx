@@ -143,7 +143,7 @@ const Home: React.FC = () => {
         <div style={{ padding: '20px', maxWidth: '800px', margin: '0 auto' }}>
           <div style={{ textAlign: 'center', marginBottom: '40px' }}>
         <h1 style={{ color: 'var(--text-inverse)', transition: 'color 0.3s ease' }}>Welcome to NES Tundikhel</h1>
-            <p style={{ color: 'var(--text-inverse)', transition: 'color 0.3s ease' }}>Playground for testing <a href="https://nes.newnepal.org" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--link-color)', textDecoration: 'underline' }}>Nepal Entity Service</a></p>
+            <p style={{ color: 'var(--text-inverse)', transition: 'color 0.3s ease' }}>Playground for testing <a href="https://nes.jawafdehi.org" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--link-color)', textDecoration: 'underline' }}>Nepal Entity Service</a></p>
           </div>
 
           <div style={{ marginBottom: '20px' }}>

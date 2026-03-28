@@ -179,7 +179,7 @@ export const SAMPLE_PERSON = {
       "description": "Source: Nepal Election Commission",
       "height": null,
       "type": "thumb",
-      "url": "https://assets.nes.newnepal.org/assets/images/election-commission-2079-pictures/333752.jpg",
+      "url": "https://assets.nes.jawafdehi.org/assets/images/election-commission-2079-pictures/333752.jpg",
       "width": null
     }
   ],
