@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom'
 import Home from './pages/Home'
 import Entity from './pages/Entity'
@@ -7,41 +7,12 @@ import ThemeToggle from './components/ThemeToggle'
 import { ThemeProvider } from './contexts/ThemeContext'
 import './App.css'
 
-class ErrorBoundary extends React.Component<
-	{ children: React.ReactNode },
-	{ hasError: boolean }
-> {
-	constructor(props: { children: React.ReactNode }) {
-		super(props)
-		this.state = { hasError: false }
-	}
-
-	static getDerivedStateFromError() {
-		return { hasError: true }
-	}
-
-	render() {
-		if (this.state.hasError) {
-			return (
-				<div style={{ padding: '20px', textAlign: 'center' }}>
-					<h2>Something went wrong</h2>
-					<button onClick={() => this.setState({ hasError: false })}>
-						Try again
-					</button>
-				</div>
-			)
-		}
-		return this.props.children
-	}
-}
-
 function App() {
 	const [menuOpen, setMenuOpen] = useState(false)
 
 	return (
 		<ThemeProvider>
-			<ErrorBoundary>
-				<Router>
+			<Router>
 					{/* NAVBAR */}
 					<nav
 						style={{
@@ -223,7 +194,6 @@ function App() {
 						</Routes>
 					</div>
 				</Router>
-			</ErrorBoundary>
 		</ThemeProvider>
 	)
 }
