@@ -1,7 +1,7 @@
 import * as Sentry from '@sentry/react'
 
 Sentry.init({
-  dsn: import.meta.env.VITE_SENTRY_DSN,
+  dsn: 'https://examplePublicKey@o0.ingest.sentry.io/0',
   environment: import.meta.env.MODE,
   integrations: [],
 })
